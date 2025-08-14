@@ -152,8 +152,8 @@ Fast to train, low memory, interpretable features (you can inspect top coefficie
 | 3 | Install dependencies | ✅ Complete | Aug 15 |
 | 4 | Create machine learning | ✅ Complete | Aug 15 |
 | 5 | Preprocess input text | ✅ Complete | Aug 16 |
-| 6 | Test /predict with curl/Postman ✅ Complete | Aug 16 |
-| 7 | Flask Web Application in local ✅ Complete | Aug 16 |
+| 6 | Test /predict with curl/Postman | ✅ Complete | Aug 16 |
+| 7 | Flask Web Application in local | ✅ Complete | Aug 16 |
 | 8 | Create environment to develop backend and split the project |✅ Complete| Aug 20 |
 | 9 | Final code cleanup|✅ Complete| Aug 20 |
 | 10 | Handle errors and edge cases|✅ Complete| Aug 21 |

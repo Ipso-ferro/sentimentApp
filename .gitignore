@@ -1,0 +1,73 @@
+# --- Python / Build ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.build/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.python-version
+
+# --- Virtual Envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Logs / Temp ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.env
+
+# --- Docker ---
+docker-compose.override.yml
+# (keep Dockerfile tracked by default)
+
+# --- Data (keep folder, ignore contents by default) ---
+data/**
+!data/.gitkeep
+!data/README.md
+
+# --- Models / Artifacts ---
+# Ignore all joblib except the one we intentionally commit
+*.joblib
+!sentiment_model.joblib
+
+models/
+artifacts/
+
+# --- Cache (various tools) ---
+.cache/
+.mypy_cache/
+.pyre/
+.pytype/

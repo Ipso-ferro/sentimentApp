@@ -157,7 +157,7 @@ Fast to train, low memory, interpretable features (you can inspect top coefficie
 | 8 | Create environment to develop backend and split the project |✅ Complete| Aug 20 |
 | 9 | Final code cleanup|✅ Complete| Aug 20 |
 | 10 | Handle errors and edge cases|✅ Complete| Aug 21 |
-| 11 | Write ethics.md | ⚠️ Blocked |✅ Complete| Aug 21 |
+| 11 | Write ethics.md |✅ Complete| Aug 21 |
 | 12 | Record project demo video |✅ Complete| Aug 21 |
 | 13 | Deploy the project in AWS |✅ Complete| Aug 21-22 |
 

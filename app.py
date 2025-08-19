@@ -378,12 +378,11 @@ def train_now():
 
 
 # STEP 14: Start the web server when script is run directly
-# --- Local dev entrypoint ---------------------------------------------------
+# --- Production-friendly entrypoint (port 80 by default) -------------------
 if __name__ == "__main__":
-    # Start Flask development server
-    # Access at: http://127.0.0.1:5000
+    import os
     app.run(
-        host="127.0.0.1",  # Listen on localhost only
-        port=5000,  # Use port 5000
-        debug=True,  # Enable debug mode for development
+        host=os.getenv("HOST", "0.0.0.0"),   # listen on all interfaces
+        port=int(os.getenv("PORT", "80")),   # default to port 80
+        debug=os.getenv("FLASK_DEBUG", "0") == "1",
     )

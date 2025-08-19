@@ -53,15 +53,15 @@ Thumbs.db
 docker-compose.override.yml
 # (keep Dockerfile tracked by default)
 
-# --- Data (keep folder, ignore contents by default) ---
-data/**
-!data/.gitkeep
-!data/README.md
+# # --- Data (keep folder, ignore contents by default) ---
+# data/**
+# !data/.gitkeep
+# !data/README.md
 
 # --- Models / Artifacts ---
 # Ignore all joblib except the one we intentionally commit
-*.joblib
-!sentiment_model.joblib
+# *.joblib
+# !sentiment_model.joblib
 
 models/
 artifacts/
@@ -71,3 +71,5 @@ artifacts/
 .mypy_cache/
 .pyre/
 .pytype/
+ ../../../../../.gitconfig
+ 
